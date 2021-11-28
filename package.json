@@ -1,0 +1,15 @@
+{
+  "name": "deno-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "esprima-deno.js",
+  "scripts": {
+    "test": "deno run --unstable --allow-read ./esprima-deno.js"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "esprima": "^4.0.1"
+  }
+}
