@@ -4,7 +4,8 @@
   "description": "",
   "main": "esprima-deno.js",
   "scripts": {
-    "test": "deno run --unstable --allow-read ./esprima-deno.js"
+    "test": "deno run --unstable --allow-read ./esprima-deno.js",
+    "start": "deno run --allow-read=node_modules esprima.js"
   },
   "keywords": [],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
