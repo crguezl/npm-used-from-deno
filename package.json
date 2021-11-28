@@ -4,6 +4,7 @@
   "description": "",
   "main": "esprima-deno.js",
   "scripts": {
+    "npm2es": "deno run --unstable --allow-read ./esprima-deno-2.js",
     "test": "deno run --unstable --allow-read ./esprima-deno.js",
     "start": "deno run --allow-read=node_modules esprima.js"
   },
